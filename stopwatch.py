@@ -43,6 +43,11 @@ class CommandInterpreter(cmd.Cmd):
     def do_EOF(self, line):
         return True  # returning any truthy value tells cmdloop to end
 
+    def do_exit(self, line):
+        # Ctrl-d for EOF doesn't work on Windows, so we need another way to
+        # exit...
+        return True
+
     def emptyline(self):
         self.stopwatch.start_or_stop()
 
