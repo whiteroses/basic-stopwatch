@@ -1,6 +1,6 @@
 # Basic stopwatch
 
-`<Enter>` to start/pause/restart stopwatch.
+`<Enter>` to start/pause/resume.
 
 `reset` to reset stopwatch and start from 0.
 
