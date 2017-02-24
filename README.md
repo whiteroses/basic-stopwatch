@@ -10,7 +10,7 @@ Any other string input at the prompt has no effect and does not affect the
 stopwatch; we can use this to add short notes on what we're recording.
 
 
-== To-dos ==
+## To-dos
 
 * Save data to file.
 * Animated display of elapsed time instead of only showing the time when the
